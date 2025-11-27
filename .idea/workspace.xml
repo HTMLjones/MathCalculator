@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="771bcfba-89e9-41e3-aa97-e206130c3e6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="771bcfba-89e9-41e3-aa97-e206130c3e6f" name="Changes" comment="Math calc">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HTMLjones/MathCalculator.git",
+    "accountId": "a38e0490-e1b2-4b94-b717-6653b48f3fbe"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -70,11 +74,32 @@
       <option name="presentableId" value="Default" />
       <updated>1763983701543</updated>
       <workItem from="1763983702755" duration="411000" />
-      <workItem from="1764001493394" duration="18374000" />
+      <workItem from="1764001493394" duration="18706000" />
     </task>
+    <task id="LOCAL-00001" summary="Math calc">
+      <option name="closed" value="true" />
+      <created>1764259719650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764259719650</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Math calc">
+      <option name="closed" value="true" />
+      <created>1764259761991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764259761991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Math calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math calc" />
   </component>
 </project>
