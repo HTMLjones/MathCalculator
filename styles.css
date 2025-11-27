@@ -21,3 +21,39 @@ body {
 #resultLabel {
     margin:90px;
 }
+
+
+
+/*Telefon justering. CHEATGPT*/
+@media (max-width: 428px) {
+    body {
+        display: flex;
+        justify-content: center;   /* centrer vandret */
+        align-items: center;       /* centrer lodret */
+        flex-direction: column;    /* alt under hinanden */
+        text-align: center;        /* centrer tekst */
+        padding: 10px;
+    }
+
+    .Math {
+        width: 100%;
+        max-width: 350px;          /* gør indholdet smalt og mobil-venligt */
+        margin: 0 auto;
+    }
+
+    input, button {
+        width: 100%;               /* gør felter og knapper bredere på mobil */
+        margin-top: 5px;
+    }
+
+    img {
+        width: 100%;               /* gør billedet mobilvenligt */
+        height: auto;
+    }
+
+    #result,
+    #resultMultiply {
+        width: 100%;               /* result-bokse fylder skærmen */
+        margin: 10px 0;
+    }
+}
