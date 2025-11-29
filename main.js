@@ -68,6 +68,7 @@ console.log("Division activated")
     }
     console.log(inputOneDivision.value)
     console.log(inputTwoDivision.value)
+    console.log("Resultatet er: " + inputOneDivision.value / inputTwoDivision.value)
 
     renderDivision = document.querySelector("#resultDivision")
     let divisionResult = division(inputOneDivision, inputTwoDivision)
