@@ -19,6 +19,14 @@ body {
     box-shadow: 2px 8px 10px;
 }
 
+#resultDivision {
+    border: 5px solid red;
+    width: 340px;
+    height: 15px;
+    padding: 15px;
+    box-shadow: 2px 8px 10px;
+}
+
 #resultLabel {
     margin:90px;
 }
