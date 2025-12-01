@@ -76,5 +76,26 @@ console.log("Division activated")
     renderDivision.style.border = "solid green 5px"
 });
 
+//Minus
+const inputOneMinus = document.querySelector("#inputOneMinus");
+const inputTwoMinus = document.querySelector("#inputTwoMinus")
+const MinusToButton = document.querySelector("#buttonMinus")
+
+
+MinusToButton.addEventListener("click", function () {
+    console.log("Minus anvendt!")
+    function mathMinus(inputOneMinus, inputTwoMinus) {
+        return (Math.round(inputOneMinus.value) - Math.round(inputTwoMinus.value))
+    }
+    console.log(inputOneMinus.value)
+    console.log(inputTwoMinus.value)
+    console.log((Math.round(inputOneMinus.value) - Math.round(inputTwoMinus.value)))
+
+    let minusResult = mathMinus(inputOneMinus, inputTwoMinus)
+    renderMinus = document.querySelector("#resultMinus")
+    renderMinus.innerText = minusResult
+    renderMinus.style.border = "solid green 5px"
+});
+
 
 
